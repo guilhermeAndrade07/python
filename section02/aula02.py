@@ -23,5 +23,4 @@ fruta_favorita = input('Qual a sua fruta favorita? ')
 
 # f-string
 print(f'Olá {name}, você tem {idade} anos de idade e a sua fruta favorita é {fruta_favorita}.')
-
 print(f'Olá {name}, daqui 5 anos você tera {idade + 5} de idade.')
