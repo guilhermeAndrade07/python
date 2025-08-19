@@ -19,4 +19,4 @@ numero2 = 2
 total_porcoes = int(input('Quantas porções o produto tem? '))
 porcoes_por_dia = int(input('Quantas porções você usa por dia? '))
 dias = total_porcoes / porcoes_por_dia
-print(dias)
+print(f'O produto vai durar {dias:.0f} dias.') #deixa com 0 casa decimais
