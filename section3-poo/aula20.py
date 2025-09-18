@@ -13,7 +13,7 @@ class Predador(Animal):
 
 class Presa(Animal):
     def fugindo(self):
-        print(f'O animal {self.nome} está sendo fugindo!')
+        print(f'O animal {self.nome} está fugindo!')
 
 # Classes Filho
 class Coelho(Presa):
